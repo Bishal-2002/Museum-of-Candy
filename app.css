@@ -1,0 +1,63 @@
+:root{
+    --main-bg-col: #f5d9d5;
+    --hover-col: #ea1c2c;
+    --main-para-col: #f498b8;
+    --link-col: rgb(255, 255, 255);
+    --main-nav-bg-col: #dec0de;
+}
+
+body{
+    background-color: var(--main-bg-col);
+    overflow-x: hidden;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: var(--hover-col);
+}
+
+
+
+.text-col{
+    color: var(--link-col);
+}
+
+.main-navbar{
+    transition: .4s all ease;
+}
+
+.change-bg-col{
+    background-color: var(--main-nav-bg-col)!important;
+    
+}
+
+#main-nav-logo{
+    color: var(--hover-col);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#main-nav-links a{
+    font-size: 1.5rem;
+    transition: .4s all ease;
+    font-weight: 100;
+}
+
+#main-nav-links a:hover{
+    color: var(--hover-col)!important;
+}
+
+.main-heading{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.main-heading-section span{
+    color: var(--hover-col);
+}
+
+.museum-section p{
+    line-height: 2;
+    color: var(--main-para-col);
+}
